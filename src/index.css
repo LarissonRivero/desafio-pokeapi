@@ -1,9 +1,7 @@
 .barra {
-  background-color: rgba(143, 53, 25, 0.936);
   display: flex;
   width: 100%;
   justify-content: space-between;
-  text-decoration: none;
 }
 
 .barra img {
@@ -54,17 +52,21 @@
   display: flex;
   text-align: center;
 }
-.isActive {
-  color: red;
-  padding-right: 10px;
+
+.navbar a.active {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(9, 144, 108);
+  border-radius: 15px;
+  font-weight: bold;
 }
 
 ul{
   list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   font-size: xx-large;
+  background-color: rgb(227, 194, 170);
+  border-radius: 10px;
 }
 
 .card-title{
