@@ -1,0 +1,87 @@
+.barra {
+  background-color: rgba(143, 53, 25, 0.936);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.barra img {
+  width: 40px;
+  height: 50px;
+  padding: 5px;
+  margin-left: 50px;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.Home {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.Home img {
+  height: 500px;
+}
+
+.Selection{
+  text-align: center;
+}
+
+.textSelection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+.form-select{
+  font-size: large !important;
+  padding: 10px !important;
+}
+
+.select {
+  display: flex;
+  text-align: center;
+}
+.isActive {
+  color: red;
+  padding-right: 10px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.card-title{
+  text-align: center;
+  font-size: xx-large;
+}
+
+.card {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
