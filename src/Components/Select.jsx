@@ -21,7 +21,7 @@ function Select(props) {
     return (
         <div>
             <select className="form-select" onChange={((e) =>  setPselect(e.target.value))}>
-                <option >pokemones</option>
+                <option >Elige tu Pokemon</option>
                 {props.list.map((item) => (<option key={item.name} value={item.name} >{item.name}</option>))}
             </select>
             <button className="btn btn-success m-3 fs-5 p-6" onClick={detalles}>Detalles</button>

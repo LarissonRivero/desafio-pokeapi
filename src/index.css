@@ -17,10 +17,11 @@
 }
 
 .navbar a {
-  text-decoration: none;
   color: white;
   padding: 10px;
   font-size: 20px;
+  outline: none;
+  text-decoration: none;
 }
 
 .Home {
@@ -29,7 +30,7 @@
 }
 
 .Home img {
-  height: 500px;
+  height: 450px;
 }
 
 .Selection{
@@ -44,8 +45,9 @@
 }
 
 .form-select{
-  font-size: large !important;
-  padding: 10px !important;
+  font-size: x-large !important;
+  padding: 5px 35px !important;
+  font-weight: bold !important;
 }
 
 .select {
@@ -54,7 +56,6 @@
 }
 
 .navbar a.active {
-  text-decoration: none;
   color: rgb(0, 0, 0);
   background-color: rgb(9, 144, 108);
   border-radius: 15px;
@@ -65,7 +66,7 @@ ul{
   list-style: none;
   text-align: center;
   font-size: xx-large;
-  background-color: rgb(227, 194, 170);
+  background-color: rgb(139, 204, 128);
   border-radius: 10px;
 }
 
