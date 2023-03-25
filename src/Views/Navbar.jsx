@@ -9,7 +9,7 @@ function Navbar() {
                 <img src="https://cdn.pixabay.com/photo/2019/11/27/14/06/pokemon-4657023_1280.png" alt="Logo Pokemon"/>
             <div className="navbar">
                 <NavLink to="/" className={setActiveClass}>Home</NavLink>
-                <NavLink to="pokemones" className={setActiveClass}>Pokemones</NavLink>
+                <NavLink to="pokemones" className={setActiveClass}>Buscar Pokemon</NavLink>
             </div>
         </div>
     )
